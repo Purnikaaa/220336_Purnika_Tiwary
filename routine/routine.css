@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+table{
+    border: 5px solid black;
+    max-width: 350px;
+    margin-left: 40%;
+    padding: 10px;
+}
+
+.submit{
+    text-align: center;
+}
+.a{
+    background-color: aquamarine;
+}
+.lb{
+    text-align: center;
+    background-color: yellow;
+}
+.sc{
+    text-align: center;
+    background-color: greenyellow;
+}
+.cc{
+    text-align: center;
+    background-color: plum;
+}
