@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      .div1 {
+        width: 100%;
+        background: red;
+        display: flex;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+      }
+      .div2 {
+        display: grid;
+        place-items: center;
+        background: green;
+        height: 300px;
+      }
+      .div3 {
+        position: relative;
+        height: 300px;
+        background: salmon;
+      }
+      .div3 > p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>This is for flex.</h1>
+      <p>The total width of this element is 100%.</p>
+    </div>
+    <div class="div2">
+      <h2>This is for grid</h2>
+      <p>The total height is 300px.</p>
+    </div>
+    <div class="div3">
+      <p>
+        Article evident arrived express highest men did boy. Mistress sensible
+        entirely am so. Quick can manor smart money hopes worth too. Comfort
+        produce husband boy her had hearing. Law others theirs passed but
+        wishes. You day real less till dear read. Considered use dispatched
+        melancholy sympathize discretion led. Oh feel if up to till like. Call
+        park out she wife face mean. Invitation excellence imprudence understood
+        it continuing to. Ye show done an into. Fifteen winding related may
+        hearted colonel are way studied. County suffer twenty or marked no
+        moment in he. Meet shew or said like he. Valley silent cannot things so
+        remain oh to elinor. Far merits season better tended any age hunted.
+        Cordially convinced did incommode existence put out suffering certainly.
+        Besides another and saw ferrars limited ten say unknown. On at tolerably
+        depending do perceived. Luckily eat joy see own shyness minuter. So
+        before remark at depart. Did son unreserved themselves indulgence its.
+        Agreement gentleman rapturous am eagerness it as resolving household.
+        Direct wicket little of talked lasted formed or it. Sweetness consulted
+        may prevailed for bed out sincerity.
+      </p>
+    </div>
+  </body>
+</html>
